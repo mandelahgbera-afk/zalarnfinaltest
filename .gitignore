@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Environment variables (NEVER commit secrets!)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+debug.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+*.iml
+.vscode
+.idea
+
+# Vercel
+.vercel
